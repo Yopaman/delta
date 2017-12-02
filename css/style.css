@@ -1,0 +1,77 @@
+
+
+#accueil {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/background.jpg");
+  background-size: cover;
+  padding: 0px;
+}
+
+#header {
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+}
+
+#logo {
+  transition: background-color 1s;
+  width: 200px;
+  padding: 10px;
+}
+
+#logo:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+#navbarNav {
+  font-size: 2em;
+}
+
+.nav-item {
+  transition: background-color 0.2s;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.nav-item:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+}
+
+.nav-item:active {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#phraseDiv {
+  width: 100%;
+  height: 80%;
+}
+
+#phraseRow {
+  height: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+#phrase {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 10px;
+}
+
+#img-arrow {
+  width: 90px;
+}
+
+#presentation {
+  background-color: #e2e1e0;
+  height: 100vh;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+#presentationTexte {
+  padding-bottom: 20px;
+  border-bottom: 1px solid gray;
+}
